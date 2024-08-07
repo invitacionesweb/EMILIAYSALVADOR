@@ -75,6 +75,7 @@ header .animales {
     padding: 0px;
     margin: 0px;
     line-height: 40px;
+    display: block;
 }
 .animales h2 {
     font-size:2em;
@@ -305,6 +306,9 @@ footer img {
     header {
         background-image: url(./img/BACKGROUND.png);
         background-size:cover;
+    }
+    .animales h1  {
+        display: none;
     }
     main {
         width: 100%;
